@@ -1,0 +1,6 @@
+name: SignPaint
+main: JunKR\SignPaint
+version: 1.0.0
+author: Jun-KR
+api:
+- 3.0.0
