@@ -19,6 +19,10 @@ class SignPaint extends PluginBase implements Listener{
     }
 
     public function onClick(PlayerInteractEvent $ev){
+        if($ev->isCancelled()){
+            return;
+        }
+
         $player = $ev->getPlayer();
         $item = $player->getInventory()->getItemInHand();
 
